@@ -1,0 +1,16 @@
+{
+  "_comment": "Character template - copy this file and rename to create new characters",
+  "id": "character_template",
+  "name": "Template Character",
+  "description": "A template character for modders to copy",
+  "sprite": "res://assets/sprites/characters/template_character.png",
+  "stats": {
+    "health": 6.0,
+    "damage": 1.0,
+    "fire_rate": 1.0,
+    "speed": 1.0,
+    "luck": 1.0
+  },
+  "starting_items": [],
+  "unique_trait": ""
+}

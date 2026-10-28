@@ -1,0 +1,13 @@
+{
+  "id": "triple_shot",
+  "name": "Triple Shot",
+  "description": "Fires 3 projectiles in a spread pattern",
+  "type": "passive",
+  "sprite": "res://assets/sprites/items/triple_shot.png",
+  "stats": {},
+  "shooting_modifiers": {
+    "projectile_count": 3,
+    "spread": 15.0
+  },
+  "script": ""
+}

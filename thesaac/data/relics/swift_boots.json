@@ -1,0 +1,9 @@
+{
+  "id": "swift_boots",
+  "name": "Swift Boots",
+  "description": "+0.2 Speed",
+  "sprite": "res://assets/sprites/relics/swift_boots.png",
+  "stat_modifiers": {
+    "speed": 0.2
+  }
+}

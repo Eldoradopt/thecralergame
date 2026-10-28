@@ -1,0 +1,9 @@
+{
+  "id": "golden_heart",
+  "name": "Golden Heart",
+  "description": "+2 Health",
+  "sprite": "res://assets/sprites/relics/golden_heart.png",
+  "stat_modifiers": {
+    "health": 2.0
+  }
+}

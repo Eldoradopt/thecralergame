@@ -1,0 +1,35 @@
+{
+  "id": "normal_room_1",
+  "type": "normal",
+  "name": "Normal Room 1",
+  "description": "A basic combat room",
+  "layout": {
+    "width": 10,
+    "height": 10,
+    "walls": [],
+    "doors": [
+      {
+        "position": {"x": 0, "y": 5},
+        "direction": "left",
+        "connects_to": ""
+      },
+      {
+        "position": {"x": 9, "y": 5},
+        "direction": "right",
+        "connects_to": ""
+      }
+    ]
+  },
+  "enemy_spawns": [
+    {
+      "enemy_id": "basic_enemy",
+      "position": {"x": 3, "y": 3}
+    },
+    {
+      "enemy_id": "basic_enemy",
+      "position": {"x": 7, "y": 7}
+    }
+  ],
+  "item_spawns": [],
+  "obstacles": []
+}

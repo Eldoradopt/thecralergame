@@ -1,0 +1,27 @@
+{
+  "_comment": "Room template - copy this file and rename to create new room layouts",
+  "id": "room_template",
+  "type": "normal",
+  "name": "Template Room",
+  "description": "A template room for modders to copy",
+  "layout": {
+    "width": 10,
+    "height": 10,
+    "walls": [],
+    "doors": [
+      {
+        "position": {"x": 0, "y": 5},
+        "direction": "left",
+        "connects_to": ""
+      }
+    ]
+  },
+  "enemy_spawns": [
+    {
+      "enemy_id": "basic_enemy",
+      "position": {"x": 5, "y": 5}
+    }
+  ],
+  "item_spawns": [],
+  "obstacles": []
+}

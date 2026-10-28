@@ -1,0 +1,10 @@
+{
+  "id": "bomb",
+  "name": "Bomb",
+  "description": "Explodes after a delay",
+  "sprite": "res://assets/sprites/pickups/bomb.png",
+  "color": "Color(0.2, 0.2, 0.2, 1)",
+  "damage": 20.0,
+  "fuse_time": 2.0,
+  "radius": 100.0
+}

@@ -1,0 +1,15 @@
+{
+  "id": "default_character",
+  "name": "Isaac",
+  "description": "The default character",
+  "sprite": "res://assets/sprites/characters/default_character.png",
+  "stats": {
+    "health": 6.0,
+    "damage": 1.0,
+    "fire_rate": 1.0,
+    "speed": 1.0,
+    "luck": 1.0
+  },
+  "starting_items": [],
+  "unique_trait": ""
+}

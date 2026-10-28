@@ -1,0 +1,26 @@
+[gd_scene load_steps=1 format=3 uid="uid://d4e6f8g0h1i2j"]
+
+[node name="RoomBase" type="Node2D"]
+
+[node name="Walls" type="Node2D" parent="."]
+
+[node name="Doors" type="Node2D" parent="."]
+
+[node name="DoorLeft" type="Area2D" parent="Doors"]
+position = Vector2(-50, 0)
+
+[node name="DoorRight" type="Area2D" parent="Doors"]
+position = Vector2(850, 0)
+
+[node name="DoorTop" type="Area2D" parent="Doors"]
+position = Vector2(400, -50)
+
+[node name="DoorBottom" type="Area2D" parent="Doors"]
+position = Vector2(400, 650)
+
+[node name="EnemySpawnPoints" type="Node2D" parent="."]
+
+[node name="ItemSpawnPoints" type="Node2D" parent="."]
+
+[node name="PlayerSpawnPoint" type="Marker2D" parent="."]
+position = Vector2(100, 100)

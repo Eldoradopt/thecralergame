@@ -1,0 +1,22 @@
+{
+  "_comment": "Item template - copy this file and rename to create new items",
+  "id": "item_template",
+  "name": "Template Item",
+  "description": "A template item for modders to copy",
+  "type": "passive",
+  "sprite": "res://assets/sprites/items/template_item.png",
+  "stats": {
+    "health": 0.0,
+    "damage": 0.0,
+    "fire_rate": 0.0,
+    "speed": 0.0,
+    "luck": 0.0
+  },
+  "shooting_modifiers": {
+    "projectile_count": 0,
+    "spread": 0.0,
+    "pierce": 0,
+    "bounce": 0
+  },
+  "script": ""
+}

@@ -1,0 +1,12 @@
+{
+  "id": "damage_up",
+  "name": "Damage Up",
+  "description": "Increases damage by 0.5",
+  "type": "passive",
+  "sprite": "res://assets/sprites/items/damage_up.png",
+  "stats": {
+    "damage": 0.5
+  },
+  "shooting_modifiers": {},
+  "script": ""
+}

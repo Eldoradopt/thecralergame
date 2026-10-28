@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=3 uid="uid://h8i0j2k3l4m5n"]
+
+[ext_resource type="Script" path="res://scripts/ui/item_description_popup.gd" id="1_desc"]
+
+[node name="ItemDescriptionPopup" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -150.0
+offset_right = 200.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_desc")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+padding_left = 10.0
+padding_top = 10.0
+padding_right = 10.0
+padding_bottom = 10.0
+
+[node name="ItemNameLabel" type="Label" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+text = "Item Name"
+horizontal_alignment = 1
+
+[node name="ItemDescriptionLabel" type="Label" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+text = "Item description goes here"
+autowrap_mode = 3
+
+[node name="StatsLabel" type="Label" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+text = "Stats:"
+
+[node name="CloseButton" type="Button" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+text = "Close"

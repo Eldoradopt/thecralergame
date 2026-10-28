@@ -1,0 +1,11 @@
+{
+  "id": "floor_boss",
+  "name": "Floor Boss",
+  "description": "The boss of the current floor",
+  "sprite": "res://assets/sprites/enemies/floor_boss.png",
+  "health": 20.0,
+  "damage": 2.0,
+  "speed": 80.0,
+  "detection_range": 500.0,
+  "attack_range": 100.0
+}

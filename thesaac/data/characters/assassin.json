@@ -1,0 +1,15 @@
+{
+  "id": "assassin",
+  "name": "Assassin",
+  "description": "High damage, low health, throwable knife",
+  "sprite": "res://assets/sprites/characters/assassin.png",
+  "stats": {
+    "health": 4.0,
+    "damage": 1.5,
+    "fire_rate": 1.2,
+    "speed": 1.3,
+    "luck": 1.0
+  },
+  "starting_items": [],
+  "has_knife": true
+}

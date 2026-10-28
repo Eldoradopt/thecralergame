@@ -1,0 +1,8 @@
+{
+  "id": "chest",
+  "name": "Chest",
+  "description": "Contains items",
+  "sprite": "res://assets/sprites/pickups/chest.png",
+  "color": "Color(0.6, 0.4, 0.2, 1)",
+  "requires_key": true
+}

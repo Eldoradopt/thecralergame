@@ -1,0 +1,11 @@
+{
+  "id": "basic_enemy",
+  "name": "Basic Enemy",
+  "description": "A simple enemy that chases the player",
+  "sprite": "res://assets/sprites/enemies/basic_enemy.png",
+  "health": 3.0,
+  "damage": 1.0,
+  "speed": 100.0,
+  "detection_range": 300.0,
+  "attack_range": 50.0
+}

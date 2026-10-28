@@ -1,0 +1,8 @@
+{
+  "id": "floor_2",
+  "floor_number": 2,
+  "room_count": 12,
+  "difficulty": 1.2,
+  "boss_id": "floor_boss",
+  "description": "Second floor - increased difficulty"
+}

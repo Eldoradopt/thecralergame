@@ -1,0 +1,9 @@
+{
+  "id": "iron_ring",
+  "name": "Iron Ring",
+  "description": "+1 Health",
+  "sprite": "res://assets/sprites/relics/iron_ring.png",
+  "stat_modifiers": {
+    "health": 1.0
+  }
+}

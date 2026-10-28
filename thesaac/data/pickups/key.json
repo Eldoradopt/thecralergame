@@ -1,0 +1,7 @@
+{
+  "id": "key",
+  "name": "Key",
+  "description": "Opens doors and chests",
+  "sprite": "res://assets/sprites/pickups/key.png",
+  "color": "Color(1, 1, 0, 1)"
+}

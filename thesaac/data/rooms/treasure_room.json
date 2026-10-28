@@ -1,0 +1,26 @@
+{
+  "id": "treasure_room",
+  "type": "treasure",
+  "name": "Treasure Room",
+  "description": "Contains item pickups",
+  "layout": {
+    "width": 8,
+    "height": 8,
+    "walls": [],
+    "doors": [
+      {
+        "position": {"x": 0, "y": 4},
+        "direction": "left",
+        "connects_to": ""
+      }
+    ]
+  },
+  "enemy_spawns": [],
+  "item_spawns": [
+    {
+      "item_id": "triple_shot",
+      "position": {"x": 4, "y": 4}
+    }
+  ],
+  "obstacles": []
+}

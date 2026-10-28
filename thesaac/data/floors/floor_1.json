@@ -1,0 +1,8 @@
+{
+  "id": "floor_1",
+  "floor_number": 1,
+  "room_count": 10,
+  "difficulty": 1.0,
+  "boss_id": "floor_boss",
+  "description": "First floor - introductory"
+}

@@ -1,0 +1,14 @@
+# This directory is for sprite assets
+# Add your scanned paper drawings here
+# 
+# Expected structure:
+# characters/
+#   default_character.png
+# enemies/
+#   basic_enemy.png
+#   floor_boss.png
+# items/
+#   damage_up.png
+#   triple_shot.png
+# 
+# For now, the game uses colored rectangles as placeholders

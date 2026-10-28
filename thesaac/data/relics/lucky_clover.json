@@ -1,0 +1,9 @@
+{
+  "id": "lucky_clover",
+  "name": "Lucky Clover",
+  "description": "+0.5 Luck",
+  "sprite": "res://assets/sprites/relics/lucky_clover.png",
+  "stat_modifiers": {
+    "luck": 0.5
+  }
+}

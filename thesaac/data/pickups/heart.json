@@ -1,0 +1,8 @@
+{
+  "id": "heart_pickup",
+  "name": "Heart",
+  "description": "Restores 1 heart",
+  "sprite": "res://assets/sprites/pickups/heart.png",
+  "color": "Color(1, 0, 0, 1)",
+  "heal_amount": 2.0
+}

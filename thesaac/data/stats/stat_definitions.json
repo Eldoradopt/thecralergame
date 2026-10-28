@@ -1,0 +1,38 @@
+{
+  "_comment": "Define all stats that can be modified by items and characters",
+  "health": {
+    "name": "Health",
+    "description": "Maximum health points",
+    "default": 6.0,
+    "min": 1.0,
+    "max": 999.0
+  },
+  "damage": {
+    "name": "Damage",
+    "description": "Damage dealt by projectiles",
+    "default": 1.0,
+    "min": 0.1,
+    "max": 99.9
+  },
+  "fire_rate": {
+    "name": "Fire Rate",
+    "description": "Shooting speed multiplier",
+    "default": 1.0,
+    "min": 0.1,
+    "max": 10.0
+  },
+  "speed": {
+    "name": "Speed",
+    "description": "Movement speed multiplier",
+    "default": 1.0,
+    "min": 0.1,
+    "max": 5.0
+  },
+  "luck": {
+    "name": "Luck",
+    "description": "Affects drop rates and random events",
+    "default": 1.0,
+    "min": 0.0,
+    "max": 10.0
+  }
+}

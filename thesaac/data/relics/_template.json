@@ -1,0 +1,10 @@
+{
+  "_comment": "Trinket template - copy to create new trinkets",
+  "id": "trinket_template",
+  "name": "Template Trinket",
+  "description": "Description here",
+  "sprite": "res://assets/sprites/relics/template.png",
+  "stat_modifiers": {
+    "luck": 0.0
+  }
+}

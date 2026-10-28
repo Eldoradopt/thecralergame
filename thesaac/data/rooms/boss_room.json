@@ -1,0 +1,31 @@
+{
+  "id": "boss_room",
+  "type": "boss",
+  "name": "Boss Room",
+  "description": "End of floor boss encounter",
+  "layout": {
+    "width": 12,
+    "height": 12,
+    "walls": [],
+    "doors": [
+      {
+        "position": {"x": 0, "y": 6},
+        "direction": "left",
+        "connects_to": ""
+      }
+    ]
+  },
+  "enemy_spawns": [
+    {
+      "enemy_id": "floor_boss",
+      "position": {"x": 6, "y": 6}
+    }
+  ],
+  "item_spawns": [
+    {
+      "item_id": "damage_up",
+      "position": {"x": 6, "y": 3}
+    }
+  ],
+  "obstacles": []
+}
